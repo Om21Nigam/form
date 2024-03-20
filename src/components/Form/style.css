@@ -1,4 +1,4 @@
-#form-container{
+#form-container {
     background-color: rgba(230, 229, 229, 0.4);
     display: flex;
     flex-direction: column;
@@ -9,31 +9,32 @@
     color: rgb(73, 73, 73);
 }
 
-#form-container .text{
+#form-container .text {
     display: flex;
     flex-direction: column;
     gap: 0.5vmax;
     align-items: center;
 }
 
-#form-container .text h1{
+#form-container .text h1 {
     font-size: 4vmax;
 }
-#form-container .text p{
+
+#form-container .text p {
     font-size: 1.2vmax;
 }
 
-#form-container form div{
+#form-container form div {
     display: flex;
     align-items: center;
     margin: 1vmax 0;
 }
 
-#form-container > p{
+#form-container>p {
     font-size: 1.1vmax;
 }
 
-#form-container form .btn{
+#form-container form .btn {
     width: 100%;
     padding: 0.7vmax 0;
     text-transform: uppercase;
@@ -47,11 +48,11 @@
     margin-top: 2vmax;
 }
 
-#form-container form .btn:hover{
+#form-container form .btn:hover {
     background-color: rgb(54, 173, 106);
 }
 
-.errMsg{
+.errMsg {
     position: absolute;
     font-weight: 300;
     pointer-events: none;
@@ -60,6 +61,6 @@
     left: 0;
     text-align: center;
     font-size: 2vmax;
-    background-color: cadetblue;
+    background-color: red;
     padding: 1vmax 0;
 }
